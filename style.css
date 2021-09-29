@@ -51,6 +51,7 @@ p {
 }
 h1 {
     border-bottom: magenta 10px solid;
+    text-transform: uppercase;
 }
 h6 {
     border-color: black 5px solid;
