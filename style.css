@@ -1,0 +1,57 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+</style>
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    font-family: 'Ephesis', cursive;
+}
+#container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+img {
+    max-width: 50%;
+}
+.hasáb{
+    max-width: 45%;
+    color: white;
+    float: left;
+    margin: 10px;
+    background-color: limegreen;
+    text-align: justify;
+}
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.hasáb::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.balkép{
+    float: left;
+    margin: 10px 10px 10px 0;
+    max-width: 100%;
+}
+.jobbkép{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+.content {
+    background-color: crimson;
+}
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+h1 {
+    border-bottom: magenta 10px solid;
+}
+h6 {
+    border-color: black 5px solid;
+}
